@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+.center {
+  border: 5px solid;
+  border-color: #931c1d;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    <a href="history.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">History</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Lao Senior Outreach</b></h1>
+  <p><b>Our seniors are our life, our wisdom, our community</b></p>
+  <p style="color: #931c1d;">Boon Kun Paw Mae</p>
+ 
+ 
+</header>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<div class="center">
+<h1>History</h1>
+<p>
+  After the fall of Vietnam in 1975, many Laotians fled their country, risking their lives across the mighty Mekong River. They arrived in the United States as refugees from Southeast Asia, Laos, in the late 1970s and early 1980s. They carried their families and children on their backs, and they still carry the trauma of the past. In their new land, they had to learn a new language and culture, and adapt to a new system and way of life. These are our parents who came before us, who shouldered us on their backs.  Now, more than 45 years later, they are in their 60s, 70s, and 80s, and we are an aging community. Unlike other mainstream communities, our Lao community is very underserved, facing language, cultural, and service barriers. Our elders live in isolation, loneliness, and with mental health issues that we do not talk about or address as a culture because it is a taboo. As a marginalized community, we see a need to address many of these issues, and thus a need for programs to uplift their moods, spirits, and hope.
+
+
+
+</p>
+
+
+
+</div>
+
+</body>
+</html>
